@@ -9,7 +9,7 @@
         return 'scissors';
 }
 
-//prompt user to type rock paper or sciss
+//prompt user to type either rock paper or scissors
 function getHumanChoice() {
         let humchoice = prompt('rock, paper or scissors?').toLowerCase();
         if (humchoice === "rock"){
